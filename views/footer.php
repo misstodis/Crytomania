@@ -4,7 +4,7 @@
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top shadow-sm mt-auto mb-0">
     <div class="col-md-4 d-flex align-items-center">
-        <a href="http://localhost/CryptoMania/"><img id="logo" src="https://coincap.io/static/logos/black.svg"></a>
+        <a><img id="logo" src="https://coincap.io/static/logos/black.svg"></a>
     </div>
 
     <ul class="nav col-md-4 me-3 justify-content-end list-unstyled d-flex">

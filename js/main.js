@@ -8,6 +8,7 @@ var user = getLocalStorageWithExpiry('user');
 
 window.onload = () => {
   NavLoginbuttonAnimation();
+  console.log($('#logo').closest('a').attr('href', window.location.origin));
 
   // when onlick tr from coins table
   $('.all-coin-table').on('click', 'tbody tr', function (e) {
@@ -46,7 +47,7 @@ window.onload = () => {
       //change icon on nav button
       $('#nav-login-button').html('<i class="bi bi-person-circle"></i>');
       $('#nav-login-button').on('click', () => {
-        window.location.href = `http://localhost/CryptoMania/wallet.php`;
+        window.location.href = `${window.location.origin}/wallet.php`;
       });
     });
 
@@ -61,7 +62,7 @@ window.onload = () => {
         showConfirmButton: false,
       }).then(() => {
         localStorage.removeItem('user');
-        window.location.href = 'http://localhost/CryptoMania/';
+        window.location.href = window.location.origin;
       });
     });
   }

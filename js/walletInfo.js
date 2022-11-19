@@ -5,7 +5,7 @@ import { Validator } from './formvalidate/index.js';
 // if user not logged in , rederect to home page
 const user = getLocalStorageWithExpiry('user');
 if (!user) {
-  window.location.href = 'http://localhost/test/';
+  window.location.href = window.location.origin;
 } else {
   $(document).ready(function () {
     getUserWallet();

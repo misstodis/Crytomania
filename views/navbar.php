@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-gradient shadow-sm bg-body rounded navbar-custom ">
     <div class=" container-fluid">
-        <a href="http://localhost/CryptoMania/"><img id="logo" src="https://coincap.io/static/logos/black.svg"></a>
+        <a href="/"><img id="logo" src="https://coincap.io/static/logos/black.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
